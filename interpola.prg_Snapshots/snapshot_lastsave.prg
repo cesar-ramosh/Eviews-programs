@@ -1,5 +1,7 @@
+'============================================================
 ' Interpolation methods for time series using eviews commands
 ' Cesar Ramos
+'============================================================
 close @all
 wfcreate(wf=workfile, page=interpola) a 1950 2020 
 rndseed 12345
@@ -17,7 +19,7 @@ smpl 1950 2020
 group series01 f f_
 series01.line
 ' --- --- ---
-' Mètodos de interpolacion
+' MÃ¨todos de interpolacion
 ' Linear
 f_.ipolate f_linear
 ' Log linear
